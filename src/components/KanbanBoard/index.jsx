@@ -49,7 +49,7 @@ function KanbanBoard({ data }) {
         : usersMap
     );
     setDisplayData(displayDataTemp);
-  }, [grouping, ordering, usersMap, tickets]);
+  }, [grouping, ordering, tickets]);
 
   useEffect(() => {
     localStorage.setItem(
