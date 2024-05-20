@@ -1,0 +1,27 @@
+.tickets-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  height: 100vh;
+  margin: auto;
+  padding-bottom: 20px;
+  background-color: #f3f5f9;
+}
+
+.column-header {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.middle-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 20px;
+  font-weight: bold;
+}

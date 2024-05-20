@@ -1,0 +1,21 @@
+.profile-wrapper{
+    align-items: center;
+        justify-content: center;
+        display: inline-flex;
+        position: relative;
+        font-size: 0.8rem;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+}
+
+.active-color {
+    position: absolute;
+          bottom: 0px;
+          right: 0px;
+          width: 10px;
+          height: 10px;
+          border: 1px solid black;
+          border-radius: 50%;
+}

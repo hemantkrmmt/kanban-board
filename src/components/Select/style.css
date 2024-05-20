@@ -1,0 +1,13 @@
+.select-wrapper {
+    font-weight: 600px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+
+select {
+    width: 100px;
+    border: 0px;
+    outline: 0px
+}
